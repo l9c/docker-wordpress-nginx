@@ -35,3 +35,8 @@ You can the visit the following URL in a browser on your host machine to get sta
 ```
 http://127.0.0.1:80
 ```
+Shell operation
+```
+docker exec -it xxxxxxxx /bin/bash 
+docker exec -it <container_name> /bin/bash
+```
