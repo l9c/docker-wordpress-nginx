@@ -13,7 +13,7 @@ $ sudo docker build -t="lc/docker-wp-nginx" .
 To spawn a new instance of wordpress on port 80.  The -p 80:80 maps the internal docker port 80 to the outside port 80 of the host machine.
 
 ```bash
-$ sudo docker run -p 80:80 --name docker-wordpress-nginx -d lc/docker-wp-nginx
+$ sudo docker run -p 80:80 --name docker-wp-nginx -d lc/docker-wp-nginx
 ```
 
 Start your newly created docker.
